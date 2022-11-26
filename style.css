@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 30px;
+}
+
+.container #heading {
+    padding: 20px 0px 20px 0px;
+}
+
+#currentcount {
+    padding-bottom: 10px;
+}
+
+hr {
+    height: 1px;
+    width: 175px;
+}
+
+#error {
+    padding: 20px 0px 20px 0px;
+    color: darkred;
+}
+
+#decrement {
+    background-color: white;
+    color: black;
+    padding: 6px 35px 6px 35px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#increment {
+    background-color: white;
+    color: black;
+    padding: 6px 35px 6px 35px;
+    margin: 0px 15px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#clear {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border: 1px solid;
+    padding: 6px 35px 6px 35px;
+    cursor: pointer;
+}
